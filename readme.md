@@ -1,6 +1,6 @@
-#Data-processing
+# Data-processing
 
-This is our working directory of data-processing scripts for projects on The Gazette.
+This is our working directory of data-processing scripts for projects on the Texas Tribune.
 
 With these tasks, we edit csv's, put them into SQLite databases, query them and output new spreadsheets or JSON feeds to use with interactives. The work largely mimics the work done by [Christopher Groskopf](https://github.com/onyxfish), who created this [example project](https://github.com/onyxfish/nicar15-process).
 
