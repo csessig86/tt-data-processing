@@ -8,7 +8,7 @@ You can view the projects by opening the "projects" folder.
 
 * Note: Raw, unedited spreadsheets and the directory they are in ("raw") are not upload for file size concerns.
 
-##Installation
+## Installation
 First you need to make sure a few things are installed on your computer. If you are using a Mac, do the following:
 
 Make sure you have [Homebrew](http://brew.sh/) installed:
@@ -31,7 +31,7 @@ We use [Grunt](http://gruntjs.com/) to create new projects and test projects. So
 
 If you're one Windows machine and are using a PowerShell console, you may want to need add the following [here](https://github.com/gruntjs/grunt/issues/774#issuecomment-58268520)
 
-##Create new project
+## Create new project
 Dependencies for Grunt are put into package.json. If any new dependencies are put in there, you need to install them by running:
 	
 	npm install
@@ -42,7 +42,7 @@ Then to create a new project, run:
 
 The "folder" parameter is equal to the name of the new folder you want to create. All new projects get put into the "projects" folder.
 
-##File structure
+## File structure
 Here's a rundown of the files and directories that will spit out when you run grunt new:
 
 Directories:
@@ -57,7 +57,7 @@ Files:
 * process.sh: Write all your analysis code in here. For instance, you can use csvkit to trim columns, port your data into a spreadsheet, etc.
 * setup.sh: Run this first. It sets up the project
 
-##Push to Github
+## Push to Github
 Here's some basic Github commands that you'll need to run to push your projects to Github. First, pull down all changes that have been made to the directory by other people onto your local machine:
 
 	git pull
