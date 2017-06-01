@@ -1,2 +1,0 @@
-select distinct(Email), emailDataBase, FirstName, LastName, Address, City, State, Zip, IP, DTStamp, Paragraph1, Paragraph2, Closing, District, Title, RepFirstName, RepLastName, RepAddr1, RepAddr2, RepCity,   RepState, RepZip, StateVoterID, "Calc Party " as CalParty
-from data_stack;
