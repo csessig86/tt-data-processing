@@ -1,4 +1,7 @@
 /.ftppass
 raw/
 
+projects/school-choice-letters/**/*
+projects/school-choice-letters/readme.md
+
 *.db
