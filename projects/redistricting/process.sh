@@ -271,7 +271,7 @@ if [[ " ${params_array[*]} " != *" interstate "* ]]; then
   NAME="Texas_US_House_Districts"
   SIMPLIFY="100%"
 
-  # ogr2ogr -where "FULLNAME='I- 35'" lines/$FILE-whole.shp $OG_FILE
+  ogr2ogr -where "FULLNAME='I- 35'" lines/$FILE-whole.shp $OG_FILE
 
   mapshaper lines/$FILE.shp name=$NAME -simplify dp $SIMPLIFY -o format=geojson map/geojson/$FILE.geojson
     mapshaper lines/$FILE.shp name=$NAME -simplify dp $SIMPLIFY -o format=topojson map/topojson/$FILE.topojson
