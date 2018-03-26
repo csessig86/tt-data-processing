@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name='namerica_extent'>
+<SrcDataSource>namerica_extent.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='all_current_simplified_one_feature'>
+<SrcDataSource>all_current_simplified_one_feature.shp</SrcDataSource>
+</OGRVRTLayer>
+</OGRVRTDataSource>

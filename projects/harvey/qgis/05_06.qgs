@@ -1,0 +1,2249 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.9">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="c_a_svi_05_06_pip20170907131726124" source="/Users/chrisessig/Documents/tribune/github/data-processing/harvey/edits/svi/buckets/c_a_svi_05_06_pip.shp" name="c_a_svi_05_06_pip">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="d_a_svi_05_06_spatial20170907131738219" source="/Users/chrisessig/Documents/tribune/github/data-processing/harvey/edits/svi/buckets/d_a_svi_05_06_spatial.shp" name="d_a_svi_05_06_spatial">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="a_svi_05_0620170907131717934" source="/Users/chrisessig/Documents/tribune/github/data-processing/harvey/edits/svi/buckets/a_svi_05_06.shp" name="a_svi_05_06">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="b_a_svi_05_06_dissolve20170907131715574" source="/Users/chrisessig/Documents/tribune/github/data-processing/harvey/edits/svi/buckets/b_a_svi_05_06_dissolve.shp" name="b_a_svi_05_06_dissolve">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="fema_assessments_extent20170907131907041" source="/Users/chrisessig/Documents/tribune/github/data-processing/harvey/edits/svi/buckets/fema_assessments_extent.shp" name="fema_assessments_extent">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="svi_tx20170907131929724" source="/Users/chrisessig/Documents/tribune/github/data-processing/harvey/edits/svi/buckets/svi_tx.shp" name="svi_tx">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-97.48308303489881155</xmin>
+      <ymin>27.8243580631717613</ymin>
+      <xmax>-93.8456214894442553</xmax>
+      <ymax>30.65995560862629432</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3401</srsid>
+        <srid>4269</srid>
+        <authid>EPSG:4269</authid>
+        <description>NAD83</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="c_a_svi_06_07_pip20170907131632706"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="svi_tx20170907131929724"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="b_a_svi_05_06_dissolve20170907131715574"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="c_a_svi_05_06_pip20170907131726124"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fema_assessments20170907131919997"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="a_svi_05_0620170907131717934"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="d_a_svi_05_06_spatial20170907131627339"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="b_a_svi_06_07_dissolve20170907131652714"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="b_a_svi_06_07_dissolve20170907131625411"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="d_a_svi_09_10_spatial20170907161550452"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fema_assessments_extent20170907140514365"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="d_a_svi_05_06_spatial20170907131730287"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fema_assessments_extent20170907131907041"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="a_svi_06_0720170907131622676"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="d_a_svi_05_06_spatial20170907131738219"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>b_a_svi_05_06_dissolve20170907131715574</item>
+      <item>a_svi_05_0620170907131717934</item>
+      <item>c_a_svi_05_06_pip20170907131726124</item>
+      <item>d_a_svi_05_06_spatial20170907131738219</item>
+      <item>fema_assessments_extent20170907131907041</item>
+      <item>svi_tx20170907131929724</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="c_a_svi_05_06_pip" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="c_a_svi_05_06_pip20170907131726124" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="d_a_svi_05_06_spatial" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="d_a_svi_05_06_spatial20170907131738219" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="a_svi_05_06" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="a_svi_05_0620170907131717934" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="b_a_svi_05_06_dissolve" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="b_a_svi_05_06_dissolve20170907131715574" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fema_assessments_extent" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="fema_assessments_extent20170907131907041" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="svi_tx" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="svi_tx20170907131929724" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>a_svi_05_0620170907131717934</id>
+      <datasource>../edits/svi/buckets/a_svi_05_06.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>a_svi_05_06</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="AFFGEOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TRACTCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ST">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ST_ABBR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STCNTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FIPS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LOCATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AREA_SQMI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_TOTPOP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_TOTPOP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_HU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_HU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_HH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_HH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEMES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEMES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_TOTAL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_DAYPOP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="83,165,178,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>AFFGEOID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="AFFGEOID" index="0" name=""/>
+        <alias field="TRACTCE" index="1" name=""/>
+        <alias field="ST" index="2" name=""/>
+        <alias field="STATE" index="3" name=""/>
+        <alias field="ST_ABBR" index="4" name=""/>
+        <alias field="STCNTY" index="5" name=""/>
+        <alias field="COUNTY" index="6" name=""/>
+        <alias field="FIPS" index="7" name=""/>
+        <alias field="LOCATION" index="8" name=""/>
+        <alias field="AREA_SQMI" index="9" name=""/>
+        <alias field="E_TOTPOP" index="10" name=""/>
+        <alias field="M_TOTPOP" index="11" name=""/>
+        <alias field="E_HU" index="12" name=""/>
+        <alias field="M_HU" index="13" name=""/>
+        <alias field="E_HH" index="14" name=""/>
+        <alias field="M_HH" index="15" name=""/>
+        <alias field="E_POV" index="16" name=""/>
+        <alias field="M_POV" index="17" name=""/>
+        <alias field="E_UNEMP" index="18" name=""/>
+        <alias field="M_UNEMP" index="19" name=""/>
+        <alias field="E_PCI" index="20" name=""/>
+        <alias field="M_PCI" index="21" name=""/>
+        <alias field="E_NOHSDP" index="22" name=""/>
+        <alias field="M_NOHSDP" index="23" name=""/>
+        <alias field="E_AGE65" index="24" name=""/>
+        <alias field="M_AGE65" index="25" name=""/>
+        <alias field="E_AGE17" index="26" name=""/>
+        <alias field="M_AGE17" index="27" name=""/>
+        <alias field="E_DISABL" index="28" name=""/>
+        <alias field="M_DISABL" index="29" name=""/>
+        <alias field="E_SNGPNT" index="30" name=""/>
+        <alias field="M_SNGPNT" index="31" name=""/>
+        <alias field="E_MINRTY" index="32" name=""/>
+        <alias field="M_MINRTY" index="33" name=""/>
+        <alias field="E_LIMENG" index="34" name=""/>
+        <alias field="M_LIMENG" index="35" name=""/>
+        <alias field="E_MUNIT" index="36" name=""/>
+        <alias field="M_MUNIT" index="37" name=""/>
+        <alias field="E_MOBILE" index="38" name=""/>
+        <alias field="M_MOBILE" index="39" name=""/>
+        <alias field="E_CROWD" index="40" name=""/>
+        <alias field="M_CROWD" index="41" name=""/>
+        <alias field="E_NOVEH" index="42" name=""/>
+        <alias field="M_NOVEH" index="43" name=""/>
+        <alias field="E_GROUPQ" index="44" name=""/>
+        <alias field="M_GROUPQ" index="45" name=""/>
+        <alias field="EP_POV" index="46" name=""/>
+        <alias field="MP_POV" index="47" name=""/>
+        <alias field="EP_UNEMP" index="48" name=""/>
+        <alias field="MP_UNEMP" index="49" name=""/>
+        <alias field="EP_PCI" index="50" name=""/>
+        <alias field="MP_PCI" index="51" name=""/>
+        <alias field="EP_NOHSDP" index="52" name=""/>
+        <alias field="MP_NOHSDP" index="53" name=""/>
+        <alias field="EP_AGE65" index="54" name=""/>
+        <alias field="MP_AGE65" index="55" name=""/>
+        <alias field="EP_AGE17" index="56" name=""/>
+        <alias field="MP_AGE17" index="57" name=""/>
+        <alias field="EP_DISABL" index="58" name=""/>
+        <alias field="MP_DISABL" index="59" name=""/>
+        <alias field="EP_SNGPNT" index="60" name=""/>
+        <alias field="MP_SNGPNT" index="61" name=""/>
+        <alias field="EP_MINRTY" index="62" name=""/>
+        <alias field="MP_MINRTY" index="63" name=""/>
+        <alias field="EP_LIMENG" index="64" name=""/>
+        <alias field="MP_LIMENG" index="65" name=""/>
+        <alias field="EP_MUNIT" index="66" name=""/>
+        <alias field="MP_MUNIT" index="67" name=""/>
+        <alias field="EP_MOBILE" index="68" name=""/>
+        <alias field="MP_MOBILE" index="69" name=""/>
+        <alias field="EP_CROWD" index="70" name=""/>
+        <alias field="MP_CROWD" index="71" name=""/>
+        <alias field="EP_NOVEH" index="72" name=""/>
+        <alias field="MP_NOVEH" index="73" name=""/>
+        <alias field="EP_GROUPQ" index="74" name=""/>
+        <alias field="MP_GROUPQ" index="75" name=""/>
+        <alias field="EPL_POV" index="76" name=""/>
+        <alias field="EPL_UNEMP" index="77" name=""/>
+        <alias field="EPL_PCI" index="78" name=""/>
+        <alias field="EPL_NOHSDP" index="79" name=""/>
+        <alias field="SPL_THEME1" index="80" name=""/>
+        <alias field="RPL_THEME1" index="81" name=""/>
+        <alias field="EPL_AGE65" index="82" name=""/>
+        <alias field="EPL_AGE17" index="83" name=""/>
+        <alias field="EPL_DISABL" index="84" name=""/>
+        <alias field="EPL_SNGPNT" index="85" name=""/>
+        <alias field="SPL_THEME2" index="86" name=""/>
+        <alias field="RPL_THEME2" index="87" name=""/>
+        <alias field="EPL_MINRTY" index="88" name=""/>
+        <alias field="EPL_LIMENG" index="89" name=""/>
+        <alias field="SPL_THEME3" index="90" name=""/>
+        <alias field="RPL_THEME3" index="91" name=""/>
+        <alias field="EPL_MUNIT" index="92" name=""/>
+        <alias field="EPL_MOBILE" index="93" name=""/>
+        <alias field="EPL_CROWD" index="94" name=""/>
+        <alias field="EPL_NOVEH" index="95" name=""/>
+        <alias field="EPL_GROUPQ" index="96" name=""/>
+        <alias field="SPL_THEME4" index="97" name=""/>
+        <alias field="RPL_THEME4" index="98" name=""/>
+        <alias field="SPL_THEMES" index="99" name=""/>
+        <alias field="RPL_THEMES" index="100" name=""/>
+        <alias field="F_POV" index="101" name=""/>
+        <alias field="F_UNEMP" index="102" name=""/>
+        <alias field="F_PCI" index="103" name=""/>
+        <alias field="F_NOHSDP" index="104" name=""/>
+        <alias field="F_THEME1" index="105" name=""/>
+        <alias field="F_AGE65" index="106" name=""/>
+        <alias field="F_AGE17" index="107" name=""/>
+        <alias field="F_DISABL" index="108" name=""/>
+        <alias field="F_SNGPNT" index="109" name=""/>
+        <alias field="F_THEME2" index="110" name=""/>
+        <alias field="F_MINRTY" index="111" name=""/>
+        <alias field="F_LIMENG" index="112" name=""/>
+        <alias field="F_THEME3" index="113" name=""/>
+        <alias field="F_MUNIT" index="114" name=""/>
+        <alias field="F_MOBILE" index="115" name=""/>
+        <alias field="F_CROWD" index="116" name=""/>
+        <alias field="F_NOVEH" index="117" name=""/>
+        <alias field="F_GROUPQ" index="118" name=""/>
+        <alias field="F_THEME4" index="119" name=""/>
+        <alias field="F_TOTAL" index="120" name=""/>
+        <alias field="E_UNINSUR" index="121" name=""/>
+        <alias field="M_UNINSUR" index="122" name=""/>
+        <alias field="EP_UNINSUR" index="123" name=""/>
+        <alias field="MP_UNINSUR" index="124" name=""/>
+        <alias field="E_DAYPOP" index="125" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
+          <column width="-1" hidden="0" type="field" name="TRACTCE"/>
+          <column width="-1" hidden="0" type="field" name="ST"/>
+          <column width="-1" hidden="0" type="field" name="STATE"/>
+          <column width="-1" hidden="0" type="field" name="ST_ABBR"/>
+          <column width="-1" hidden="0" type="field" name="STCNTY"/>
+          <column width="-1" hidden="0" type="field" name="COUNTY"/>
+          <column width="-1" hidden="0" type="field" name="FIPS"/>
+          <column width="-1" hidden="0" type="field" name="LOCATION"/>
+          <column width="-1" hidden="0" type="field" name="AREA_SQMI"/>
+          <column width="-1" hidden="0" type="field" name="E_TOTPOP"/>
+          <column width="-1" hidden="0" type="field" name="M_TOTPOP"/>
+          <column width="-1" hidden="0" type="field" name="E_HU"/>
+          <column width="-1" hidden="0" type="field" name="M_HU"/>
+          <column width="-1" hidden="0" type="field" name="E_HH"/>
+          <column width="-1" hidden="0" type="field" name="M_HH"/>
+          <column width="-1" hidden="0" type="field" name="E_POV"/>
+          <column width="-1" hidden="0" type="field" name="M_POV"/>
+          <column width="-1" hidden="0" type="field" name="E_UNEMP"/>
+          <column width="-1" hidden="0" type="field" name="M_UNEMP"/>
+          <column width="-1" hidden="0" type="field" name="E_PCI"/>
+          <column width="-1" hidden="0" type="field" name="M_PCI"/>
+          <column width="-1" hidden="0" type="field" name="E_NOHSDP"/>
+          <column width="-1" hidden="0" type="field" name="M_NOHSDP"/>
+          <column width="-1" hidden="0" type="field" name="E_AGE65"/>
+          <column width="-1" hidden="0" type="field" name="M_AGE65"/>
+          <column width="-1" hidden="0" type="field" name="E_AGE17"/>
+          <column width="-1" hidden="0" type="field" name="M_AGE17"/>
+          <column width="-1" hidden="0" type="field" name="E_DISABL"/>
+          <column width="-1" hidden="0" type="field" name="M_DISABL"/>
+          <column width="-1" hidden="0" type="field" name="E_SNGPNT"/>
+          <column width="-1" hidden="0" type="field" name="M_SNGPNT"/>
+          <column width="-1" hidden="0" type="field" name="E_MINRTY"/>
+          <column width="-1" hidden="0" type="field" name="M_MINRTY"/>
+          <column width="-1" hidden="0" type="field" name="E_LIMENG"/>
+          <column width="-1" hidden="0" type="field" name="M_LIMENG"/>
+          <column width="-1" hidden="0" type="field" name="E_MUNIT"/>
+          <column width="-1" hidden="0" type="field" name="M_MUNIT"/>
+          <column width="-1" hidden="0" type="field" name="E_MOBILE"/>
+          <column width="-1" hidden="0" type="field" name="M_MOBILE"/>
+          <column width="-1" hidden="0" type="field" name="E_CROWD"/>
+          <column width="-1" hidden="0" type="field" name="M_CROWD"/>
+          <column width="-1" hidden="0" type="field" name="E_NOVEH"/>
+          <column width="-1" hidden="0" type="field" name="M_NOVEH"/>
+          <column width="-1" hidden="0" type="field" name="E_GROUPQ"/>
+          <column width="-1" hidden="0" type="field" name="M_GROUPQ"/>
+          <column width="-1" hidden="0" type="field" name="EP_POV"/>
+          <column width="-1" hidden="0" type="field" name="MP_POV"/>
+          <column width="-1" hidden="0" type="field" name="EP_UNEMP"/>
+          <column width="-1" hidden="0" type="field" name="MP_UNEMP"/>
+          <column width="-1" hidden="0" type="field" name="EP_PCI"/>
+          <column width="-1" hidden="0" type="field" name="MP_PCI"/>
+          <column width="-1" hidden="0" type="field" name="EP_NOHSDP"/>
+          <column width="-1" hidden="0" type="field" name="MP_NOHSDP"/>
+          <column width="-1" hidden="0" type="field" name="EP_AGE65"/>
+          <column width="-1" hidden="0" type="field" name="MP_AGE65"/>
+          <column width="-1" hidden="0" type="field" name="EP_AGE17"/>
+          <column width="-1" hidden="0" type="field" name="MP_AGE17"/>
+          <column width="-1" hidden="0" type="field" name="EP_DISABL"/>
+          <column width="-1" hidden="0" type="field" name="MP_DISABL"/>
+          <column width="-1" hidden="0" type="field" name="EP_SNGPNT"/>
+          <column width="-1" hidden="0" type="field" name="MP_SNGPNT"/>
+          <column width="-1" hidden="0" type="field" name="EP_MINRTY"/>
+          <column width="-1" hidden="0" type="field" name="MP_MINRTY"/>
+          <column width="-1" hidden="0" type="field" name="EP_LIMENG"/>
+          <column width="-1" hidden="0" type="field" name="MP_LIMENG"/>
+          <column width="-1" hidden="0" type="field" name="EP_MUNIT"/>
+          <column width="-1" hidden="0" type="field" name="MP_MUNIT"/>
+          <column width="-1" hidden="0" type="field" name="EP_MOBILE"/>
+          <column width="-1" hidden="0" type="field" name="MP_MOBILE"/>
+          <column width="-1" hidden="0" type="field" name="EP_CROWD"/>
+          <column width="-1" hidden="0" type="field" name="MP_CROWD"/>
+          <column width="-1" hidden="0" type="field" name="EP_NOVEH"/>
+          <column width="-1" hidden="0" type="field" name="MP_NOVEH"/>
+          <column width="-1" hidden="0" type="field" name="EP_GROUPQ"/>
+          <column width="-1" hidden="0" type="field" name="MP_GROUPQ"/>
+          <column width="-1" hidden="0" type="field" name="EPL_POV"/>
+          <column width="-1" hidden="0" type="field" name="EPL_UNEMP"/>
+          <column width="-1" hidden="0" type="field" name="EPL_PCI"/>
+          <column width="-1" hidden="0" type="field" name="EPL_NOHSDP"/>
+          <column width="-1" hidden="0" type="field" name="SPL_THEME1"/>
+          <column width="-1" hidden="0" type="field" name="RPL_THEME1"/>
+          <column width="-1" hidden="0" type="field" name="EPL_AGE65"/>
+          <column width="-1" hidden="0" type="field" name="EPL_AGE17"/>
+          <column width="-1" hidden="0" type="field" name="EPL_DISABL"/>
+          <column width="-1" hidden="0" type="field" name="EPL_SNGPNT"/>
+          <column width="-1" hidden="0" type="field" name="SPL_THEME2"/>
+          <column width="-1" hidden="0" type="field" name="RPL_THEME2"/>
+          <column width="-1" hidden="0" type="field" name="EPL_MINRTY"/>
+          <column width="-1" hidden="0" type="field" name="EPL_LIMENG"/>
+          <column width="-1" hidden="0" type="field" name="SPL_THEME3"/>
+          <column width="-1" hidden="0" type="field" name="RPL_THEME3"/>
+          <column width="-1" hidden="0" type="field" name="EPL_MUNIT"/>
+          <column width="-1" hidden="0" type="field" name="EPL_MOBILE"/>
+          <column width="-1" hidden="0" type="field" name="EPL_CROWD"/>
+          <column width="-1" hidden="0" type="field" name="EPL_NOVEH"/>
+          <column width="-1" hidden="0" type="field" name="EPL_GROUPQ"/>
+          <column width="-1" hidden="0" type="field" name="SPL_THEME4"/>
+          <column width="-1" hidden="0" type="field" name="RPL_THEME4"/>
+          <column width="-1" hidden="0" type="field" name="SPL_THEMES"/>
+          <column width="-1" hidden="0" type="field" name="RPL_THEMES"/>
+          <column width="-1" hidden="0" type="field" name="F_POV"/>
+          <column width="-1" hidden="0" type="field" name="F_UNEMP"/>
+          <column width="-1" hidden="0" type="field" name="F_PCI"/>
+          <column width="-1" hidden="0" type="field" name="F_NOHSDP"/>
+          <column width="-1" hidden="0" type="field" name="F_THEME1"/>
+          <column width="-1" hidden="0" type="field" name="F_AGE65"/>
+          <column width="-1" hidden="0" type="field" name="F_AGE17"/>
+          <column width="-1" hidden="0" type="field" name="F_DISABL"/>
+          <column width="-1" hidden="0" type="field" name="F_SNGPNT"/>
+          <column width="-1" hidden="0" type="field" name="F_THEME2"/>
+          <column width="-1" hidden="0" type="field" name="F_MINRTY"/>
+          <column width="-1" hidden="0" type="field" name="F_LIMENG"/>
+          <column width="-1" hidden="0" type="field" name="F_THEME3"/>
+          <column width="-1" hidden="0" type="field" name="F_MUNIT"/>
+          <column width="-1" hidden="0" type="field" name="F_MOBILE"/>
+          <column width="-1" hidden="0" type="field" name="F_CROWD"/>
+          <column width="-1" hidden="0" type="field" name="F_NOVEH"/>
+          <column width="-1" hidden="0" type="field" name="F_GROUPQ"/>
+          <column width="-1" hidden="0" type="field" name="F_THEME4"/>
+          <column width="-1" hidden="0" type="field" name="F_TOTAL"/>
+          <column width="-1" hidden="0" type="field" name="E_UNINSUR"/>
+          <column width="-1" hidden="0" type="field" name="M_UNINSUR"/>
+          <column width="-1" hidden="0" type="field" name="EP_UNINSUR"/>
+          <column width="-1" hidden="0" type="field" name="MP_UNINSUR"/>
+          <column width="-1" hidden="0" type="field" name="E_DAYPOP"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="AFFGEOID" expression=""/>
+        <default field="TRACTCE" expression=""/>
+        <default field="ST" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="ST_ABBR" expression=""/>
+        <default field="STCNTY" expression=""/>
+        <default field="COUNTY" expression=""/>
+        <default field="FIPS" expression=""/>
+        <default field="LOCATION" expression=""/>
+        <default field="AREA_SQMI" expression=""/>
+        <default field="E_TOTPOP" expression=""/>
+        <default field="M_TOTPOP" expression=""/>
+        <default field="E_HU" expression=""/>
+        <default field="M_HU" expression=""/>
+        <default field="E_HH" expression=""/>
+        <default field="M_HH" expression=""/>
+        <default field="E_POV" expression=""/>
+        <default field="M_POV" expression=""/>
+        <default field="E_UNEMP" expression=""/>
+        <default field="M_UNEMP" expression=""/>
+        <default field="E_PCI" expression=""/>
+        <default field="M_PCI" expression=""/>
+        <default field="E_NOHSDP" expression=""/>
+        <default field="M_NOHSDP" expression=""/>
+        <default field="E_AGE65" expression=""/>
+        <default field="M_AGE65" expression=""/>
+        <default field="E_AGE17" expression=""/>
+        <default field="M_AGE17" expression=""/>
+        <default field="E_DISABL" expression=""/>
+        <default field="M_DISABL" expression=""/>
+        <default field="E_SNGPNT" expression=""/>
+        <default field="M_SNGPNT" expression=""/>
+        <default field="E_MINRTY" expression=""/>
+        <default field="M_MINRTY" expression=""/>
+        <default field="E_LIMENG" expression=""/>
+        <default field="M_LIMENG" expression=""/>
+        <default field="E_MUNIT" expression=""/>
+        <default field="M_MUNIT" expression=""/>
+        <default field="E_MOBILE" expression=""/>
+        <default field="M_MOBILE" expression=""/>
+        <default field="E_CROWD" expression=""/>
+        <default field="M_CROWD" expression=""/>
+        <default field="E_NOVEH" expression=""/>
+        <default field="M_NOVEH" expression=""/>
+        <default field="E_GROUPQ" expression=""/>
+        <default field="M_GROUPQ" expression=""/>
+        <default field="EP_POV" expression=""/>
+        <default field="MP_POV" expression=""/>
+        <default field="EP_UNEMP" expression=""/>
+        <default field="MP_UNEMP" expression=""/>
+        <default field="EP_PCI" expression=""/>
+        <default field="MP_PCI" expression=""/>
+        <default field="EP_NOHSDP" expression=""/>
+        <default field="MP_NOHSDP" expression=""/>
+        <default field="EP_AGE65" expression=""/>
+        <default field="MP_AGE65" expression=""/>
+        <default field="EP_AGE17" expression=""/>
+        <default field="MP_AGE17" expression=""/>
+        <default field="EP_DISABL" expression=""/>
+        <default field="MP_DISABL" expression=""/>
+        <default field="EP_SNGPNT" expression=""/>
+        <default field="MP_SNGPNT" expression=""/>
+        <default field="EP_MINRTY" expression=""/>
+        <default field="MP_MINRTY" expression=""/>
+        <default field="EP_LIMENG" expression=""/>
+        <default field="MP_LIMENG" expression=""/>
+        <default field="EP_MUNIT" expression=""/>
+        <default field="MP_MUNIT" expression=""/>
+        <default field="EP_MOBILE" expression=""/>
+        <default field="MP_MOBILE" expression=""/>
+        <default field="EP_CROWD" expression=""/>
+        <default field="MP_CROWD" expression=""/>
+        <default field="EP_NOVEH" expression=""/>
+        <default field="MP_NOVEH" expression=""/>
+        <default field="EP_GROUPQ" expression=""/>
+        <default field="MP_GROUPQ" expression=""/>
+        <default field="EPL_POV" expression=""/>
+        <default field="EPL_UNEMP" expression=""/>
+        <default field="EPL_PCI" expression=""/>
+        <default field="EPL_NOHSDP" expression=""/>
+        <default field="SPL_THEME1" expression=""/>
+        <default field="RPL_THEME1" expression=""/>
+        <default field="EPL_AGE65" expression=""/>
+        <default field="EPL_AGE17" expression=""/>
+        <default field="EPL_DISABL" expression=""/>
+        <default field="EPL_SNGPNT" expression=""/>
+        <default field="SPL_THEME2" expression=""/>
+        <default field="RPL_THEME2" expression=""/>
+        <default field="EPL_MINRTY" expression=""/>
+        <default field="EPL_LIMENG" expression=""/>
+        <default field="SPL_THEME3" expression=""/>
+        <default field="RPL_THEME3" expression=""/>
+        <default field="EPL_MUNIT" expression=""/>
+        <default field="EPL_MOBILE" expression=""/>
+        <default field="EPL_CROWD" expression=""/>
+        <default field="EPL_NOVEH" expression=""/>
+        <default field="EPL_GROUPQ" expression=""/>
+        <default field="SPL_THEME4" expression=""/>
+        <default field="RPL_THEME4" expression=""/>
+        <default field="SPL_THEMES" expression=""/>
+        <default field="RPL_THEMES" expression=""/>
+        <default field="F_POV" expression=""/>
+        <default field="F_UNEMP" expression=""/>
+        <default field="F_PCI" expression=""/>
+        <default field="F_NOHSDP" expression=""/>
+        <default field="F_THEME1" expression=""/>
+        <default field="F_AGE65" expression=""/>
+        <default field="F_AGE17" expression=""/>
+        <default field="F_DISABL" expression=""/>
+        <default field="F_SNGPNT" expression=""/>
+        <default field="F_THEME2" expression=""/>
+        <default field="F_MINRTY" expression=""/>
+        <default field="F_LIMENG" expression=""/>
+        <default field="F_THEME3" expression=""/>
+        <default field="F_MUNIT" expression=""/>
+        <default field="F_MOBILE" expression=""/>
+        <default field="F_CROWD" expression=""/>
+        <default field="F_NOVEH" expression=""/>
+        <default field="F_GROUPQ" expression=""/>
+        <default field="F_THEME4" expression=""/>
+        <default field="F_TOTAL" expression=""/>
+        <default field="E_UNINSUR" expression=""/>
+        <default field="M_UNINSUR" expression=""/>
+        <default field="EP_UNINSUR" expression=""/>
+        <default field="MP_UNINSUR" expression=""/>
+        <default field="E_DAYPOP" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "AFFGEOID", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-97.64944899999994732</xmin>
+        <ymin>27.69826600000004646</ymin>
+        <xmax>-93.83877499999994143</xmax>
+        <ymax>30.66889200000002802</ymax>
+      </extent>
+      <id>b_a_svi_05_06_dissolve20170907131715574</id>
+      <datasource>../edits/svi/buckets/b_a_svi_05_06_dissolve.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>b_a_svi_05_06_dissolve</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="227,113,130,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STATE</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STATE" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="STATE" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>c_a_svi_05_06_pip20170907131726124</id>
+      <datasource>../edits/svi/buckets/c_a_svi_05_06_pip.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>c_a_svi_05_06_pip</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="DMG_LEVEL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FIPS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PROD_DATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="226,212,139,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DMG_LEVEL</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="DMG_LEVEL" index="0" name=""/>
+        <alias field="COUNTY" index="1" name=""/>
+        <alias field="FIPS" index="2" name=""/>
+        <alias field="PROD_DATE" index="3" name=""/>
+        <alias field="LONGITUDE" index="4" name=""/>
+        <alias field="LATITUDE" index="5" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="2535">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="DMG_LEVEL" expression=""/>
+        <default field="COUNTY" expression=""/>
+        <default field="FIPS" expression=""/>
+        <default field="PROD_DATE" expression=""/>
+        <default field="LONGITUDE" expression=""/>
+        <default field="LATITUDE" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>d_a_svi_05_06_spatial20170907131738219</id>
+      <datasource>../edits/svi/buckets/d_a_svi_05_06_spatial.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>d_a_svi_05_06_spatial</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="RPL_THEMES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="count">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="65,81,148,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>RPL_THEMES</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="RPL_THEMES" index="0" name=""/>
+        <alias field="count" index="1" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="2434224">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="RPL_THEMES" expression=""/>
+        <default field="count" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>fema_assessments_extent20170907131907041</id>
+      <datasource>../edits/svi/buckets/fema_assessments_extent.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>fema_assessments_extent</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="FID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="87,78,148,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>FID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="FID" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="FID" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>svi_tx20170907131929724</id>
+      <datasource>../edits/svi/buckets/svi_tx.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>svi_tx</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="AFFGEOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TRACTCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ST">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ST_ABBR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STCNTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FIPS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LOCATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AREA_SQMI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_TOTPOP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_TOTPOP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_HU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_HU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_HH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_HH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EPL_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEME4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEME4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPL_THEMES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RPL_THEMES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_POV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_UNEMP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_PCI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_NOHSDP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_AGE65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_AGE17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_DISABL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_SNGPNT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_MINRTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_LIMENG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_MUNIT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_MOBILE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_CROWD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_NOVEH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_GROUPQ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_THEME4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_TOTAL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EP_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MP_UNINSUR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="E_DAYPOP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="139,230,65,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>AFFGEOID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="AFFGEOID" index="0" name=""/>
+        <alias field="TRACTCE" index="1" name=""/>
+        <alias field="ST" index="2" name=""/>
+        <alias field="STATE" index="3" name=""/>
+        <alias field="ST_ABBR" index="4" name=""/>
+        <alias field="STCNTY" index="5" name=""/>
+        <alias field="COUNTY" index="6" name=""/>
+        <alias field="FIPS" index="7" name=""/>
+        <alias field="LOCATION" index="8" name=""/>
+        <alias field="AREA_SQMI" index="9" name=""/>
+        <alias field="E_TOTPOP" index="10" name=""/>
+        <alias field="M_TOTPOP" index="11" name=""/>
+        <alias field="E_HU" index="12" name=""/>
+        <alias field="M_HU" index="13" name=""/>
+        <alias field="E_HH" index="14" name=""/>
+        <alias field="M_HH" index="15" name=""/>
+        <alias field="E_POV" index="16" name=""/>
+        <alias field="M_POV" index="17" name=""/>
+        <alias field="E_UNEMP" index="18" name=""/>
+        <alias field="M_UNEMP" index="19" name=""/>
+        <alias field="E_PCI" index="20" name=""/>
+        <alias field="M_PCI" index="21" name=""/>
+        <alias field="E_NOHSDP" index="22" name=""/>
+        <alias field="M_NOHSDP" index="23" name=""/>
+        <alias field="E_AGE65" index="24" name=""/>
+        <alias field="M_AGE65" index="25" name=""/>
+        <alias field="E_AGE17" index="26" name=""/>
+        <alias field="M_AGE17" index="27" name=""/>
+        <alias field="E_DISABL" index="28" name=""/>
+        <alias field="M_DISABL" index="29" name=""/>
+        <alias field="E_SNGPNT" index="30" name=""/>
+        <alias field="M_SNGPNT" index="31" name=""/>
+        <alias field="E_MINRTY" index="32" name=""/>
+        <alias field="M_MINRTY" index="33" name=""/>
+        <alias field="E_LIMENG" index="34" name=""/>
+        <alias field="M_LIMENG" index="35" name=""/>
+        <alias field="E_MUNIT" index="36" name=""/>
+        <alias field="M_MUNIT" index="37" name=""/>
+        <alias field="E_MOBILE" index="38" name=""/>
+        <alias field="M_MOBILE" index="39" name=""/>
+        <alias field="E_CROWD" index="40" name=""/>
+        <alias field="M_CROWD" index="41" name=""/>
+        <alias field="E_NOVEH" index="42" name=""/>
+        <alias field="M_NOVEH" index="43" name=""/>
+        <alias field="E_GROUPQ" index="44" name=""/>
+        <alias field="M_GROUPQ" index="45" name=""/>
+        <alias field="EP_POV" index="46" name=""/>
+        <alias field="MP_POV" index="47" name=""/>
+        <alias field="EP_UNEMP" index="48" name=""/>
+        <alias field="MP_UNEMP" index="49" name=""/>
+        <alias field="EP_PCI" index="50" name=""/>
+        <alias field="MP_PCI" index="51" name=""/>
+        <alias field="EP_NOHSDP" index="52" name=""/>
+        <alias field="MP_NOHSDP" index="53" name=""/>
+        <alias field="EP_AGE65" index="54" name=""/>
+        <alias field="MP_AGE65" index="55" name=""/>
+        <alias field="EP_AGE17" index="56" name=""/>
+        <alias field="MP_AGE17" index="57" name=""/>
+        <alias field="EP_DISABL" index="58" name=""/>
+        <alias field="MP_DISABL" index="59" name=""/>
+        <alias field="EP_SNGPNT" index="60" name=""/>
+        <alias field="MP_SNGPNT" index="61" name=""/>
+        <alias field="EP_MINRTY" index="62" name=""/>
+        <alias field="MP_MINRTY" index="63" name=""/>
+        <alias field="EP_LIMENG" index="64" name=""/>
+        <alias field="MP_LIMENG" index="65" name=""/>
+        <alias field="EP_MUNIT" index="66" name=""/>
+        <alias field="MP_MUNIT" index="67" name=""/>
+        <alias field="EP_MOBILE" index="68" name=""/>
+        <alias field="MP_MOBILE" index="69" name=""/>
+        <alias field="EP_CROWD" index="70" name=""/>
+        <alias field="MP_CROWD" index="71" name=""/>
+        <alias field="EP_NOVEH" index="72" name=""/>
+        <alias field="MP_NOVEH" index="73" name=""/>
+        <alias field="EP_GROUPQ" index="74" name=""/>
+        <alias field="MP_GROUPQ" index="75" name=""/>
+        <alias field="EPL_POV" index="76" name=""/>
+        <alias field="EPL_UNEMP" index="77" name=""/>
+        <alias field="EPL_PCI" index="78" name=""/>
+        <alias field="EPL_NOHSDP" index="79" name=""/>
+        <alias field="SPL_THEME1" index="80" name=""/>
+        <alias field="RPL_THEME1" index="81" name=""/>
+        <alias field="EPL_AGE65" index="82" name=""/>
+        <alias field="EPL_AGE17" index="83" name=""/>
+        <alias field="EPL_DISABL" index="84" name=""/>
+        <alias field="EPL_SNGPNT" index="85" name=""/>
+        <alias field="SPL_THEME2" index="86" name=""/>
+        <alias field="RPL_THEME2" index="87" name=""/>
+        <alias field="EPL_MINRTY" index="88" name=""/>
+        <alias field="EPL_LIMENG" index="89" name=""/>
+        <alias field="SPL_THEME3" index="90" name=""/>
+        <alias field="RPL_THEME3" index="91" name=""/>
+        <alias field="EPL_MUNIT" index="92" name=""/>
+        <alias field="EPL_MOBILE" index="93" name=""/>
+        <alias field="EPL_CROWD" index="94" name=""/>
+        <alias field="EPL_NOVEH" index="95" name=""/>
+        <alias field="EPL_GROUPQ" index="96" name=""/>
+        <alias field="SPL_THEME4" index="97" name=""/>
+        <alias field="RPL_THEME4" index="98" name=""/>
+        <alias field="SPL_THEMES" index="99" name=""/>
+        <alias field="RPL_THEMES" index="100" name=""/>
+        <alias field="F_POV" index="101" name=""/>
+        <alias field="F_UNEMP" index="102" name=""/>
+        <alias field="F_PCI" index="103" name=""/>
+        <alias field="F_NOHSDP" index="104" name=""/>
+        <alias field="F_THEME1" index="105" name=""/>
+        <alias field="F_AGE65" index="106" name=""/>
+        <alias field="F_AGE17" index="107" name=""/>
+        <alias field="F_DISABL" index="108" name=""/>
+        <alias field="F_SNGPNT" index="109" name=""/>
+        <alias field="F_THEME2" index="110" name=""/>
+        <alias field="F_MINRTY" index="111" name=""/>
+        <alias field="F_LIMENG" index="112" name=""/>
+        <alias field="F_THEME3" index="113" name=""/>
+        <alias field="F_MUNIT" index="114" name=""/>
+        <alias field="F_MOBILE" index="115" name=""/>
+        <alias field="F_CROWD" index="116" name=""/>
+        <alias field="F_NOVEH" index="117" name=""/>
+        <alias field="F_GROUPQ" index="118" name=""/>
+        <alias field="F_THEME4" index="119" name=""/>
+        <alias field="F_TOTAL" index="120" name=""/>
+        <alias field="E_UNINSUR" index="121" name=""/>
+        <alias field="M_UNINSUR" index="122" name=""/>
+        <alias field="EP_UNINSUR" index="123" name=""/>
+        <alias field="MP_UNINSUR" index="124" name=""/>
+        <alias field="E_DAYPOP" index="125" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="AFFGEOID" expression=""/>
+        <default field="TRACTCE" expression=""/>
+        <default field="ST" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="ST_ABBR" expression=""/>
+        <default field="STCNTY" expression=""/>
+        <default field="COUNTY" expression=""/>
+        <default field="FIPS" expression=""/>
+        <default field="LOCATION" expression=""/>
+        <default field="AREA_SQMI" expression=""/>
+        <default field="E_TOTPOP" expression=""/>
+        <default field="M_TOTPOP" expression=""/>
+        <default field="E_HU" expression=""/>
+        <default field="M_HU" expression=""/>
+        <default field="E_HH" expression=""/>
+        <default field="M_HH" expression=""/>
+        <default field="E_POV" expression=""/>
+        <default field="M_POV" expression=""/>
+        <default field="E_UNEMP" expression=""/>
+        <default field="M_UNEMP" expression=""/>
+        <default field="E_PCI" expression=""/>
+        <default field="M_PCI" expression=""/>
+        <default field="E_NOHSDP" expression=""/>
+        <default field="M_NOHSDP" expression=""/>
+        <default field="E_AGE65" expression=""/>
+        <default field="M_AGE65" expression=""/>
+        <default field="E_AGE17" expression=""/>
+        <default field="M_AGE17" expression=""/>
+        <default field="E_DISABL" expression=""/>
+        <default field="M_DISABL" expression=""/>
+        <default field="E_SNGPNT" expression=""/>
+        <default field="M_SNGPNT" expression=""/>
+        <default field="E_MINRTY" expression=""/>
+        <default field="M_MINRTY" expression=""/>
+        <default field="E_LIMENG" expression=""/>
+        <default field="M_LIMENG" expression=""/>
+        <default field="E_MUNIT" expression=""/>
+        <default field="M_MUNIT" expression=""/>
+        <default field="E_MOBILE" expression=""/>
+        <default field="M_MOBILE" expression=""/>
+        <default field="E_CROWD" expression=""/>
+        <default field="M_CROWD" expression=""/>
+        <default field="E_NOVEH" expression=""/>
+        <default field="M_NOVEH" expression=""/>
+        <default field="E_GROUPQ" expression=""/>
+        <default field="M_GROUPQ" expression=""/>
+        <default field="EP_POV" expression=""/>
+        <default field="MP_POV" expression=""/>
+        <default field="EP_UNEMP" expression=""/>
+        <default field="MP_UNEMP" expression=""/>
+        <default field="EP_PCI" expression=""/>
+        <default field="MP_PCI" expression=""/>
+        <default field="EP_NOHSDP" expression=""/>
+        <default field="MP_NOHSDP" expression=""/>
+        <default field="EP_AGE65" expression=""/>
+        <default field="MP_AGE65" expression=""/>
+        <default field="EP_AGE17" expression=""/>
+        <default field="MP_AGE17" expression=""/>
+        <default field="EP_DISABL" expression=""/>
+        <default field="MP_DISABL" expression=""/>
+        <default field="EP_SNGPNT" expression=""/>
+        <default field="MP_SNGPNT" expression=""/>
+        <default field="EP_MINRTY" expression=""/>
+        <default field="MP_MINRTY" expression=""/>
+        <default field="EP_LIMENG" expression=""/>
+        <default field="MP_LIMENG" expression=""/>
+        <default field="EP_MUNIT" expression=""/>
+        <default field="MP_MUNIT" expression=""/>
+        <default field="EP_MOBILE" expression=""/>
+        <default field="MP_MOBILE" expression=""/>
+        <default field="EP_CROWD" expression=""/>
+        <default field="MP_CROWD" expression=""/>
+        <default field="EP_NOVEH" expression=""/>
+        <default field="MP_NOVEH" expression=""/>
+        <default field="EP_GROUPQ" expression=""/>
+        <default field="MP_GROUPQ" expression=""/>
+        <default field="EPL_POV" expression=""/>
+        <default field="EPL_UNEMP" expression=""/>
+        <default field="EPL_PCI" expression=""/>
+        <default field="EPL_NOHSDP" expression=""/>
+        <default field="SPL_THEME1" expression=""/>
+        <default field="RPL_THEME1" expression=""/>
+        <default field="EPL_AGE65" expression=""/>
+        <default field="EPL_AGE17" expression=""/>
+        <default field="EPL_DISABL" expression=""/>
+        <default field="EPL_SNGPNT" expression=""/>
+        <default field="SPL_THEME2" expression=""/>
+        <default field="RPL_THEME2" expression=""/>
+        <default field="EPL_MINRTY" expression=""/>
+        <default field="EPL_LIMENG" expression=""/>
+        <default field="SPL_THEME3" expression=""/>
+        <default field="RPL_THEME3" expression=""/>
+        <default field="EPL_MUNIT" expression=""/>
+        <default field="EPL_MOBILE" expression=""/>
+        <default field="EPL_CROWD" expression=""/>
+        <default field="EPL_NOVEH" expression=""/>
+        <default field="EPL_GROUPQ" expression=""/>
+        <default field="SPL_THEME4" expression=""/>
+        <default field="RPL_THEME4" expression=""/>
+        <default field="SPL_THEMES" expression=""/>
+        <default field="RPL_THEMES" expression=""/>
+        <default field="F_POV" expression=""/>
+        <default field="F_UNEMP" expression=""/>
+        <default field="F_PCI" expression=""/>
+        <default field="F_NOHSDP" expression=""/>
+        <default field="F_THEME1" expression=""/>
+        <default field="F_AGE65" expression=""/>
+        <default field="F_AGE17" expression=""/>
+        <default field="F_DISABL" expression=""/>
+        <default field="F_SNGPNT" expression=""/>
+        <default field="F_THEME2" expression=""/>
+        <default field="F_MINRTY" expression=""/>
+        <default field="F_LIMENG" expression=""/>
+        <default field="F_THEME3" expression=""/>
+        <default field="F_MUNIT" expression=""/>
+        <default field="F_MOBILE" expression=""/>
+        <default field="F_CROWD" expression=""/>
+        <default field="F_NOVEH" expression=""/>
+        <default field="F_GROUPQ" expression=""/>
+        <default field="F_THEME4" expression=""/>
+        <default field="F_TOTAL" expression=""/>
+        <default field="E_UNINSUR" expression=""/>
+        <default field="M_UNINSUR" expression=""/>
+        <default field="EP_UNINSUR" expression=""/>
+        <default field="MP_UNINSUR" expression=""/>
+        <default field="E_DAYPOP" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>b_a_svi_05_06_dissolve20170907131715574</value>
+        <value>a_svi_05_0620170907131717934</value>
+        <value>c_a_svi_05_06_pip20170907131726124</value>
+        <value>d_a_svi_05_06_spatial20170907131738219</value>
+        <value>fema_assessments_extent20170907131907041</value>
+        <value>svi_tx20170907131929724</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>

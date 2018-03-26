@@ -1,7 +1,10 @@
 /.ftppass
+old/
 raw/
 edits/
 block_level/
+us_house_districts/all_current/
+projects/redistricting/map/geojson/**
 
 projects/school-choice-letters/**/*
 

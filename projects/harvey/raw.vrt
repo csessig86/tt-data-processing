@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name='pre_raw_polygons'>
+<SrcDataSource>pre_raw_polygons.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='pre_femaextent'>
+<SrcDataSource>pre_femaextent.shp</SrcDataSource>
+</OGRVRTLayer>
+</OGRVRTDataSource>
