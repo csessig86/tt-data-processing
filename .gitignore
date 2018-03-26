@@ -1,5 +1,7 @@
 /.ftppass
 raw/
+edits/
+block_level/
 
 projects/school-choice-letters/**/*
 
